@@ -1,0 +1,23 @@
+lead-flow-bot/
+├── src/
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── bot.py
+│   │   ├── analytics.py
+│   │   └── database.py
+│   ├── integrations/
+│   │   ├── __init__.py
+│   │   ├── lovable.py
+│   │   └── whatsapp.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── logger.py
+│   │   └── helpers.py
+│   └── services/          # Mantener existentes
+│       └── core/
+│           ├── BotArmy.ts
+│           ├── MultipleBotArmy.ts
+│           └── EcommerceIntegrations.ts
+├── config.py
+├── requirements.txt
+└── README.md
